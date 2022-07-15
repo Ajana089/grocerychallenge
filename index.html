@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <style>
+        th{ 
+            color:aliceblue;
+                }
+    </style>
+    
+</head>
+<body>
+
+    
+    <div  style="text-align: center;"><h4>Grocery</h4></div>
+    <div>
+           <!-- <select name="dropdown" value="selected" id="arr" onchange="getvalue()">
+            <option value="ALL">ALL</option>
+            <option value="rice">rice</option>
+           <option value="white">white</option>
+           <option value="grinded">grinded</option>
+           <option value="grocer">grocer</option>
+           <option value="cold">cold</option>
+        </select> -->
+
+
+        <!-- <select id="arr" id="arr" onchange="getvalue()">
+            <option></option>
+          </select> -->
+
+          <select id="arr">
+            <option>All</option>
+        </select>
+      <button id="listen" onclick="filtering()">click me</button>  
+         </div>
+            
+
+       
+   
+        
+    
+
+    <table  class="table table-striped" >
+        <tr  class="bg-info">
+            <th>SrNo</th>
+            <th>Item</th>
+            <th>Unit</th>
+            <th> Quantity</th>
+            <th> Note</th>
+            
+            <th col-index = 3>Department
+                
+            </th>
+        </tr>
+    
+        <tbody id="myTable">
+            
+        </tbody>
+
+        <tbody id="depttable">
+            
+        </tbody>
+    </table>
+    <script>
+       
+  
+
+    
+    </script>
+ <script src="veg.js"></script> 
+</body>
+</html>
